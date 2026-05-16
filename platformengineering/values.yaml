@@ -2,7 +2,7 @@ replicaCount: 3
 app:
   name: platformengineering
 image:
-  repository: roko1987/platformengineering
+  repository: roko1987/docker-platform-engineering
   tag: latest
 containerPort: 80
 service:
