@@ -38,7 +38,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: roko1987/platformengineering:${{ steps.vars.outputs.commit_id }}
+          tags: roko1987/docker-platform-engineering:${{ steps.vars.outputs.commit_id }}
   cd:
     needs: ci
     runs-on: ubuntu-latest
